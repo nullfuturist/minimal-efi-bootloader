@@ -1,0 +1,6 @@
+# Soft dependencies extracted from modules themselves.
+softdep ext4 pre: crc32c
+softdep libcrc32c pre: crc32c
+softdep crc64_rocksoft pre: crc64
+softdep ohci_pci pre: ehci_pci
+softdep uhci_hcd pre: ehci_pci
